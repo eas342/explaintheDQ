@@ -2,13 +2,16 @@
 Usage
 =====
 
-To use Explain the DQ in a project::
+To use Explain the DQ in a project:
+
+.. code-block:: python
 
     import explaintheDQ
     explaintheDQ(32769)
 
 What you get is a table explaining the flags for this DQ value:
 
+.. code-block:: console
 
          Name        Flag Bit                 Description                
     ---------------- ----- --- -------------------------------------------
@@ -44,5 +47,6 @@ What you get is a table explaining the flags for this DQ value:
      MSA_FAILED_OPEN False  29   Pixel sees light from failed-open shutter
      OTHER_BAD_PIXEL False  30                            A catch-all flag
      REFERENCE_PIXEL False  31                  Pixel is a reference pixel
+
 
 So this pixel was marked as DO_NO_USE because it is known to have random telegraph noise.
