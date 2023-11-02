@@ -9,8 +9,8 @@ Explain the DQ
 .. image:: https://img.shields.io/travis/eas342/explaintheDQ.svg
         :target: https://travis-ci.com/eas342/explaintheDQ
 
-.. image:: https://readthedocs.org/projects/explaintheDQ/badge/?version=latest
-        :target: https://explaintheDQ.readthedocs.io/en/latest/?version=latest
+.. image:: https://readthedocs.org/projects/explainthedq/badge/?version=latest
+        :target: https://explainthedq.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
 
