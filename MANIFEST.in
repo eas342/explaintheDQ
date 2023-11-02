@@ -2,6 +2,7 @@ include CONTRIBUTING.rst
 include HISTORY.rst
 include LICENSE
 include README.rst
+include explaintheDQ/jwst_dq_table.csv
 
 recursive-include tests *
 recursive-exclude * __pycache__
