@@ -52,10 +52,8 @@ This is a bear-bones package to break down the DQ number.
 
 .. code-block:: console
    
-         Name        Flag Bit                 Description                
-    ---------------- ----- --- -------------------------------------------
           DO_NOT_USE  True   0                      Bad pixel. Do not use.
-           SATURATED False   1             Pixel saturated during exposure
+           SATURATED  True   1             Pixel saturated during exposure
             JUMP_DET False   2               Jump detected during exposure
              DROPOUT False   3                   Data lost in transmission
              OUTLIER False   4                Flagged by outlier detection
@@ -64,17 +62,17 @@ This is a bear-bones package to break down the DQ number.
           CHARGELOSS False   7                            Charge Migration
     UNRELIABLE_ERROR False   8            Uncertainty exceeds quoted error
          NON_SCIENCE False   9    Pixel not on science portion of detector
-                DEAD False  10                                  Dead pixel
+                DEAD  True  10                                  Dead pixel
                  HOT False  11                                   Hot pixel
                 WARM False  12                                  Warm pixel
               LOW_QE False  13                      Low quantum efficiency
                   RC False  14                                    RC pixel
-           TELEGRAPH  True  15                             Telegraph pixel
+           TELEGRAPH False  15                             Telegraph pixel
            NONLINEAR False  16                      Pixel highly nonlinear
        BAD_REF_PIXEL False  17              Reference pixel cannot be used
        NO_FLAT_FIELD False  18               Flat field cannot be measured
        NO_GAIN_VALUE False  19                     Gain cannot be measured
-         NO_LIN_CORR False  20          Linearity correction not available
+         NO_LIN_CORR  True  20          Linearity correction not available
         NO_SAT_CHECK False  21              Saturation check not available
      UNRELIABLE_BIAS False  22                         Bias variance large
      UNRELIABLE_DARK False  23                         Dark variance large
@@ -89,7 +87,7 @@ This is a bear-bones package to break down the DQ number.
 
 
 
-So the pixel that is NaN in the rate image's SCI extension has the following characteristics.
+So the pixel that is a NaN in the middle is marked as not to be used, saturated, dead and having no linearity correction available.
 
 Credits
 -------
