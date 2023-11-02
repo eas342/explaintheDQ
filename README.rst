@@ -28,14 +28,14 @@ The Problem
 .. image:: images/example_SCI_ext.png
    :height: 100px
    :width: 100 px
-   :scale: 200%
+   :scale: 100%
    :alt: Science frame extension
    :align: left
 
 .. image:: images/example_DQ_ext.png
    :height: 100px
    :width: 100 px
-   :scale: 200%
+   :scale: 100%
    :alt: Science frame extension
    :align: left
    
