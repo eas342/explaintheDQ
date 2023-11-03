@@ -31,8 +31,8 @@ The Problem
 .. image:: images/example_DQ_ext.png
    
 
-"SCI": Science extension of a ::code::`_rate.fits` image.
-"DQ": Data Quality (DQ) extension of a ::code:`_rate.fits` image.
+"SCI": Science extension of a :code:`_rate.fits` image.
+"DQ": Data Quality (DQ) extension of a :code:`_rate.fits` image.
 
 Example images
 
