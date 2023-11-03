@@ -19,6 +19,7 @@ This is a simple package that helps explain a DQ value for the DQ extension of J
 
 
 * Free software: MIT license
+* Source code: https://github.com/eas342/explaintheDQ
 * Documentation: https://explaintheDQ.readthedocs.io.
 
 
