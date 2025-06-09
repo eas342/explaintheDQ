@@ -7,7 +7,7 @@ To use Explain the DQ in a project:
 .. code-block:: python
 
     import explaintheDQ
-    explaintheDQ(32769)
+    explaintheDQ.DQtab(32769)
 
 What you get is a table explaining the flags for this DQ value:
 
